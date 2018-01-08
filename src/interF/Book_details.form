@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jButton1" min="-2" pref="128" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bookIDbox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BookNamebox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="AutherNamebox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Isbnbox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lengthbox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="bookIdbox" pref="150" max="32767" attributes="0"/>
+                          <Component id="bookNamebox" max="32767" attributes="0"/>
+                          <Component id="autherNamebox" max="32767" attributes="0"/>
+                          <Component id="ISBNbox" max="32767" attributes="0"/>
+                          <Component id="Lengthbox" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="208" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="bookIDbox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bookIdbox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BookNamebox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bookNamebox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AutherNamebox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="autherNamebox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Isbnbox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ISBNbox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lengthbox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Lengthbox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="42" max="-2" attributes="0"/>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="bookIDbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Book ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BookNamebox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Book name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AutherNamebox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Auther name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Isbnbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ISBN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lengthbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ADD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="bookIdbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="51">
+            <StringItem index="0" value="Book ID Number"/>
+            <StringItem index="1" value="001"/>
+            <StringItem index="2" value="002"/>
+            <StringItem index="3" value="003"/>
+            <StringItem index="4" value="004"/>
+            <StringItem index="5" value="005"/>
+            <StringItem index="6" value="006"/>
+            <StringItem index="7" value="007"/>
+            <StringItem index="8" value="008"/>
+            <StringItem index="9" value="009"/>
+            <StringItem index="10" value="010"/>
+            <StringItem index="11" value="011"/>
+            <StringItem index="12" value="012"/>
+            <StringItem index="13" value="013"/>
+            <StringItem index="14" value="014"/>
+            <StringItem index="15" value="015"/>
+            <StringItem index="16" value="016"/>
+            <StringItem index="17" value="017"/>
+            <StringItem index="18" value="018"/>
+            <StringItem index="19" value="019"/>
+            <StringItem index="20" value="020"/>
+            <StringItem index="21" value="021"/>
+            <StringItem index="22" value="022"/>
+            <StringItem index="23" value="023"/>
+            <StringItem index="24" value="024"/>
+            <StringItem index="25" value="025"/>
+            <StringItem index="26" value="026"/>
+            <StringItem index="27" value="027"/>
+            <StringItem index="28" value="028"/>
+            <StringItem index="29" value="029"/>
+            <StringItem index="30" value="030"/>
+            <StringItem index="31" value="031"/>
+            <StringItem index="32" value="032"/>
+            <StringItem index="33" value="033"/>
+            <StringItem index="34" value="034"/>
+            <StringItem index="35" value="035"/>
+            <StringItem index="36" value="036"/>
+            <StringItem index="37" value="037"/>
+            <StringItem index="38" value="038"/>
+            <StringItem index="39" value="039"/>
+            <StringItem index="40" value="040"/>
+            <StringItem index="41" value="041"/>
+            <StringItem index="42" value="042"/>
+            <StringItem index="43" value="043"/>
+            <StringItem index="44" value="044"/>
+            <StringItem index="45" value="045"/>
+            <StringItem index="46" value="046"/>
+            <StringItem index="47" value="047"/>
+            <StringItem index="48" value="048"/>
+            <StringItem index="49" value="049"/>
+            <StringItem index="50" value="050"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bookNamebox">
+    </Component>
+    <Component class="javax.swing.JTextField" name="autherNamebox">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ISBNbox">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Lengthbox">
+    </Component>
+  </SubComponents>
+</Form>
